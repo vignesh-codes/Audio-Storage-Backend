@@ -1,0 +1,8 @@
+#Give appropriate path here. Same dir as main program as the zip file making part depends on this path.
+audio_file_dir: 'C:/Users/91900/Downloads/web-app/%s'
+audio_file_path: 'C:/Users/91900/Downloads/web-app/%s/%s.mp3'
+db_config:
+  host: 'localhost'
+  user: 'root'
+  pass: 'root'
+  db: 'newpy'

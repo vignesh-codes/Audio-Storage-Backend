@@ -1,0 +1,13 @@
+flask
+flask_cors
+flask_mysqldb
+yaml
+time
+os
+mutagen.mp3
+json
+zipfile
+requests
+unittest
+io
+
