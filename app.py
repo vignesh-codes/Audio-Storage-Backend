@@ -381,7 +381,7 @@ def getfile(fileType, name):
             return (derivedFile)
 
 
-# To download a specific music file
+# To Download all music of same fileType
 @app.route('/data/<string:fileType>', methods=['GET'])
 def downloadAllFiles(fileType):
     try:
@@ -397,22 +397,6 @@ def downloadAllFiles(fileType):
         # Delete the zip file if not needed
         os.remove("Audiofiles.zip")
 
-
-# #To Download all music of same fileType
-# @app.route('/data/<string:fileType>', methods=['GET'])
-# def downloadAllFiles(fileType):
-#     # try:
-#     makeZip(fileType)
-#     # except:
-#     #     return "Error making Zip File"
-#     # else:
-#     return send_file('Audiofiles.zip',
-#             mimetype = 'zip',
-#             attachment_filename= 'Audiofiles.zip',
-#             as_attachment = True)
-
-#     # Delete the zip file if not needed
-#     os.remove("Audiofiles.zip")
 
 
 #To initialize the required paths for storages
