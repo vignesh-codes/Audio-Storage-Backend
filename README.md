@@ -1,7 +1,7 @@
 # Audio Storage Provider Site
 
 
-Foobar is a Python library for dealing with word pluralization.
+Audio MP3 Storage server with Python Flask and Mysql Backend
 
 ## Routes:
 
