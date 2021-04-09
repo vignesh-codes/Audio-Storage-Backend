@@ -52,6 +52,6 @@ Maintain 3 response codes:
 Success: 200, BadRequest: 400 and ServerError:500
 
 
-##TO RUN:
+## TO RUN:
 pip3 install requirments.txt
 python3 app.py
